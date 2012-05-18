@@ -16,7 +16,8 @@
     "commander": "0.6.0",
     "wrench": ">0.0.0",
     "underscore": ">0.0.0",
-    "underscore.string": ">0.0.0"
+    "underscore.string": ">0.0.0",
+    "jade": ">0.0.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
