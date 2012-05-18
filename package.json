@@ -1,0 +1,17 @@
+{
+  "author": "Nick Radford <nick@nicholasradford.com> (nicholasradford.com)",
+  "name": "codoc",
+  "description": "Coffee/JS documentation generator",
+  "version": "0.0.0",
+  "homepage": "http://github.com/nickradford/codoc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickradford/codoc.git"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
