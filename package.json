@@ -11,7 +11,14 @@
   "engines": {
     "node": "~0.6.8"
   },
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": ">0.0.0",
+    "commander": "0.6.0",
+    "wrench": ">0.0.0",
+    "underscore": ">0.0.0",
+    "underscore.string": ">0.0.0"
+  },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "bin": {"codoc": "./bin/codoc"}
 }

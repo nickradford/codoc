@@ -1,0 +1,16 @@
+#!/usr/bin/env coffee
+
+Codoc = require '../lib/codoc'
+codoc = new Codoc
+
+program = require 'commander'
+
+program
+  .version('0.0.0')
+  .usage('[options] <path>')
+  .option('-o, --output <dir>', 'Output directory, defaults to ./docs')
+  .parse(process.argv)
+
+codoc.generateDocs
+  paths: if program.args.length > 0 then program.args else ['.']
+  output: if program.output? then program.output else './docs'

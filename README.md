@@ -1,4 +1,4 @@
 codoc
 =====
 
-Coffee/JS Documentation Generator
+Coffee/~~JS~~ Documentation Generator
